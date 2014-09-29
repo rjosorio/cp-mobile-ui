@@ -1,0 +1,76 @@
+.display-container {
+	width: 320px !important; height: 568px !important;
+	border: 1px solid #cccccc;
+	margin: 40px 0px 40px 40px !important;
+	position: relative !important;
+	float: left;
+}
+
+.demo-top{
+	background:url("../img/phone.png") no-repeat center 0px #009999;
+	height: 300px;
+	width: 100%;
+
+}
+
+h1.demo-title{
+	color: #ffffff;
+	width: 100%;
+	padding: 30px 15px;
+	display: block;
+	text-align: center;
+	background-color: #00abab;
+	border-top: 1px solid #4eb8b8;
+	border-bottom: 1px solid #4eb8b8;
+}
+
+.demo-top .demo-top-bar{
+	width: 100%;
+	height: 50px;
+	display: block;
+	background-color: #ffffff;
+}
+
+.demo-top .demo-top-bar .demo-logo{
+	background: url("../img/ui-logo.png") no-repeat center 10px #ffffff;
+	text-indent: -60000px;
+	height: 50px;
+	display: block;
+	width: 205px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.demo-content{
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.demo-content .wrapper{
+	min-width: 400px;
+	max-width: 1126px;
+	margin: 0 auto;
+}
+
+.download-btn{
+	background-color: #ffffff;
+	color: #009999;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px 30px;
+	font-size: 18px;
+	display: inline-block;
+	width: 80px;
+	height: 20px;
+	margin: 0px 0px 0px 15px;
+}
+
+.download-btn:active{
+	background-color: #003333;
+	color: #ffffff;
+}
+
+.medullan-link{
+	color: #ffffff;
+	border-bottom: 1px dotted #ffffff;
+}

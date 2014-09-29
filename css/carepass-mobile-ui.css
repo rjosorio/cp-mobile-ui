@@ -1,0 +1,194 @@
+*, html, body, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-type: none;
+	text-decoration: none;
+	font-weight: normal;
+  	font-family: Foco-Light, "foco", "Myriad Pro", "Myriad", "Helvetica Neue", "Roboto", Helvetica, Arial, sans-serif;
+}
+
+body{
+	background-color: #272727;
+}
+
+a{
+	color: #009999;
+	text-decoration: none;
+	border: none;
+	font-size: inherit;
+	font-weight: normal;
+}
+
+div, span, p{
+	color: inherit;
+	font-size: inherit;
+	padding: 0;
+	margin:0;
+}
+
+.enable-carepass-mobile-ui{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.enable-carepass-mobile-ui .container {
+	overflow-x:hidden !important;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transition: left 200ms linear 0;
+    -moz-transition: left 200ms;
+    -ms-transition: left 200ms;
+    transition: left 500ms linear 0;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    width:100%;
+}
+.enable-carepass-mobile-ui .container.open{
+	position: fixed;
+    left: 280px;
+}
+
+.enable-carepass-mobile-ui .container .main-nav {
+	display: block;
+	height: 41px;
+	border-bottom: 1px solid #efefef;
+	background-color: #FBFBFB;
+}
+
+.enable-carepass-mobile-ui .container #menu-btn {
+	position: relative;
+    top: 10px;
+	left: 10px;
+    cursor: pointer;
+    display: block;
+	width: 27px;
+	height: 21px;
+	text-indent: -60000px;
+	background: url("../img/sprites/bg-elements@2.png") 0 -768px no-repeat;
+	background-size:300px 3600px !important;
+}
+
+/* SLIDING NAVIGATION */
+.enable-carepass-mobile-ui .nav-menu {
+    /*padding: 52px 5px;*/
+    background: url("../img/logo/CarePass-logo-145x35@2.png") center 16px no-repeat;
+  	background-size:145px 35px !important;
+  	background-color: #272727;
+  	-webkit-transition: 200ms linear 0;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    transition: 500ms linear 0;
+}
+
+.enable-carepass-mobile-ui .nav-menu {
+    z-index: 0;
+    position: absolute;
+    left: -280px;
+}
+ 
+.enable-carepass-mobile-ui .nav-menu.open {
+    display:block;
+    width: 280px;
+	height: auto; 
+    overflow-y: auto;
+    overflow-x:hidden;
+    left: 0;
+}
+
+.enable-carepass-mobile-ui .nav-menu ul {
+	list-style: none;
+	padding: 0;
+}
+
+.enable-carepass-mobile-ui .nav-menu li {
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #000000;
+	background-image:url("../img/sprites/bg-elements@2.png");
+	background-size:300px 3600px !important;
+}
+
+.enable-carepass-mobile-ui .nav-menu li.nav-option-home {
+	background-position: -2px -1888px;
+}
+
+.enable-carepass-mobile-ui .nav-menu li.nav-option-refresh {
+	background-position: -2px -1988px;
+}
+
+.enable-carepass-mobile-ui .nav-menu li.nav-option-help {
+	background-position: -2px  -2088px;
+}
+
+.enable-carepass-mobile-ui .nav-menu li.nav-option-find {
+	background-position: -2px  -2188px;
+}
+
+.enable-carepass-mobile-ui .nav-menu li.nav-option-contact {
+	background-position: -2px  -2288px;
+}
+
+.enable-carepass-mobile-ui .nav-menu li.nav-option-logout {
+	background-position: -2px  -2388px;
+}
+
+.enable-carepass-mobile-ui .nav-menu li.nav-option-about {
+	background-position: -2px  -2488px;
+}
+
+.enable-carepass-mobile-ui .nav-menu li.nav-option-settings {
+	background-position: -2px  -2588px;
+}
+
+.enable-carepass-mobile-ui .nav-menu ul a {
+	display: block;
+	text-decoration: none;
+    padding: 12px 5px 12px 62px;
+    color: #009999;
+    font-size: 14px;
+}
+
+/* TITLES */
+.container .section-title{
+	color: #333333;
+  	border-bottom: 1px solid #efefef;
+  	margin: 0;
+  	padding: 5px 15px;
+  	font-weight: normal;
+  	font-size: 22px;
+  	line-height: 32px;
+}
+
+/* LIST VIEW ELEMENT */
+.container .list-view{
+	display: block;
+	list-style-type: none;
+}
+
+.container .list-view a{
+	display:block;
+	height: 20px;
+	border-bottom: 1px solid #EFEFEF;
+	text-decoration: none;
+	padding: 15px;
+	background:url("../img/sprites/bg-elements@2.png") right -289px no-repeat #FFFFFF;
+	background-size:300px 3600px;
+}
+
+.container .list-view a:active{
+	background-color: #009999;
+	background-position: right -232px;
+	color: #FFFFFF;
+}
+
+.clearfixer{
+	clear:both;
+	width:1px; height:1px;
+	font-size:0;
+	border:none;
+}
